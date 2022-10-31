@@ -7,6 +7,7 @@ html{
 body {
     margin: 0;
     font-size: 16px;
+    
     /*font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
 }
 
@@ -16,12 +17,14 @@ body {
     width: 100%;
 }
 
+
 header .container {
     background-color: white;
     font-size: 18px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
  
 }
 
@@ -32,6 +35,8 @@ header h1{
 nav{
 
     justify-self:end;
+    padding: 15px;
+    margin: 15px;
       
 }
 
@@ -52,15 +57,17 @@ nav a:hover {
 
 .overview-hero{
     background-color: #E2E8F0;
-    margin: 2%;
-    padding:10px;
+    margin: 20px;
+    padding:30px;
     height:200px;
 }
 
 .overview-hero img{
     float: left;
-    margin: 1%;
-    padding:5px;
+    margin: 15px;
+    padding:15px;
+    padding-top:5px ;
+    padding-bottom: 20px;
     justify-content: center;
     align-content: center;
     width:150px;
@@ -70,6 +77,8 @@ nav a:hover {
 .overview-hero-text{
     justify-content: center;
     align-content: center;
+    margin:20px;
+    padding:20px;
 }
 .learn-about{
     margin:1px;
@@ -90,7 +99,7 @@ nav a:hover {
 }
 .cards img{
     width:90%;
-    height: 250px;
+    height: 225px;
     margin:1px;
     padding:5px
 }
@@ -112,29 +121,65 @@ nav a:hover {
     color: white;
     display: flex;
     flex-direction: row;
-    padding: 10px;
-    margin: 1%;
+    padding: 30px;
+    margin: 5px;
 
 }
+.testing .container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 200px;
+    grid-row: 30px;
+}
+
 .testing-description{
-    justify-content: left;
+    margin:10px;
+    margin-right: 20px;
+    padding: 20px;
+    
+}
+
+
+/* 
+.testing-description{
+   justify-content: left;
     text-align: left;
     align-items: left;
+    float: left;
+    
 
-}
+}*/
 
 .testing a {
     background-color: #48BB78;
     border-radius: 5px;
-    padding:5px;
+    padding:10px;
+    margin:15px;
     text-decoration: none;
+
+   
+    
     
 }
+
+.cta{
+    
+    padding:10px;
+    margin-bottom:15px;
+    margin-right: 50px;
+    margin-left: 1px;
+    margin-top: 40px;
+}
+
+/*
 .cta{
     
     justify-content: right;
     align-items: right;
-}
+    float:right;
+    display: inline;
+}*/
+
 .stories article{
     margin: 5%;
     padding: 5px;
@@ -167,21 +212,40 @@ color: #5A67D8;
     /*justify-content: center;
     align-items: center; */
     margin: 2%;
-    padding: 5px;
-    padding-bottom: 0px;
+    padding: 10px;
+   
     margin-bottom: 0px;
 }
 
 .form-group{
     display: inline;
+   
+
+}
+.newsletter input{
+    padding: 10px;
+    margin: 15px;
+    margin-right: 0px;
 }
 .newsletter .btn{
     background-color: #5A67DB;
     display: inline;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    margin-left: 0px;
 }
 
 footer{
     background-color: #4A5568;
     color: white;
-    margin: 0%;
+    margin: 2%;
+    margin-top: 0px;
+    padding: 2px;
+}
+footer p{
+    margin: 5px;
+    margin-left: 50px;
+    padding: 5px;
 }
